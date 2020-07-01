@@ -1,7 +1,7 @@
 
 # STUDENT PROJECT [P3] - **VAGRANT**
 
-![Vagrant](https://img.shields.io/badge/Docker-19-blue.svg)
+![Vagrant](https://img.shields.io/badge/Vagrant-19-blue.svg)
 ![Licence](https://img.shields.io/badge/Licence-GPLv3-blue.svg)
 
 > For construct Vagrant virtual machine with Ubuntu 18.04 Server.

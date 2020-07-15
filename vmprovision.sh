@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get -y update
-suto apt-get -y upgrade
+sudo apt-get -y upgrade
 
 # DOCKER INSTALL
 sudo apt-get -y remove docker docker-engine docker.io containerd runc

@@ -21,15 +21,18 @@
 1 - Clone this repository on your computer with SSH or HTTP :
 ```shell
 git clone git@github.com:GuillaumeSadlerOC/DevOps_Vagrant.git
+git clone https://github.com/GuillaumeSadlerOC/DevOps_Vagrant.git
 ```
 
-2 - In "DevOps_vagrant" make this commands :
+2 - In your cloned respository make this commands :
 ```shell
 vagrant up
 ```
 ```shell
 vagrant ssh
 ```
+
+The vagrant vm ssh password is : **vagrant**
 
 ## COMMON VAGRANT COMMANDS
 

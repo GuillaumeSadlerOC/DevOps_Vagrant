@@ -32,3 +32,8 @@ sudo apt-get -y update
 sudo apt-get -y install software-properties-common
 sudo apt-add-repository --yes --update ppa:ansible/ansible
 sudo apt-get -y  install ansible
+
+# DOCKER PROJECT INSTALL
+git clone https://github.com/GuillaumeSadlerOC/DevOps_Docker.git /home/vagrant/datas/DevOps_Docker
+sudo docker build -t supervisor_nginx_sshd /home/vagrant/datas/DevOps_Docker/
+sudo docker run -d -p 80:80 --name sshd_docker supervisor_nginx_sshd
